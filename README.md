@@ -11,6 +11,9 @@ A structured repository documenting my daily learnings in backend systems, netwo
 ## 🛠️ Backend Engineering Index
 ### Networking & Protocols
 * [01 - HTTP Fundamentals](./backend-engineering/networking/01-http-fundamentals.md)
+  
+### Testing & Quality
+* [02 - Unit Testing & TDD](./backend-engineering/testing/02-unit-testing-and-tdd.md)
 
 ### Databases & Storage
 * *Coming soon...*
@@ -25,4 +28,4 @@ A structured repository documenting my daily learnings in backend systems, netwo
 | # | Problem | Pattern | Language | Difficulty | Solution |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0001 | Two Sum | Arrays & Hashing | Python | Easy | [Code](./leetcode/arrays-and-hashing/0001-two-sum.py) |
-| 0217 | Contains Duplicate | Arrays & Hashing | Python | Easy | *In progress* |
+| 0217 | Contains Duplicate | Arrays & Hashing | Python | Easy | [Code](./leetcode/arrays-and-hashing/0217-contains-duplicate.py) |
