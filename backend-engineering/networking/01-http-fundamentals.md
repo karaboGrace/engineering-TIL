@@ -59,6 +59,7 @@ Describe the payload/body format[cite: 2]:
 * `Content-Length`: Size of the body in bytes[cite: 2].
 * `Content-Encoding`: Compression algorithm used (e.g., `gzip`)[cite: 2].
 * `ETag`: Unique identifier for a specific version of a resource (used for caching)[cite: 2].
+> No ETag / cache validation: Clients keep pulling full payloads or overwriting newer state without knowing it changed.
 
 ### Security Headers
 * `Strict-Transport-Security` (**HSTS**): Enforces HTTPS connections[cite: 2].
@@ -83,6 +84,7 @@ Describe the payload/body format[cite: 2]:
 
 > **Idempotency:** An operation is *idempotent* if making the same request multiple times produces the exact same state/result on the server as making it once[cite: 2].
 
+> No idempotency on POST: A timeout after the server commits causes a client retry to create duplicate records.
 ---
 
 ## 5. CORS & Preflighted Requests
