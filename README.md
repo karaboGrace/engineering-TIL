@@ -31,5 +31,5 @@ A structured repository documenting my daily learnings in backend systems, netwo
 | 0217 | Contains Duplicate | Arrays & Hashing | Python | Easy | [Code](./leetcode/arrays-and-hashing/contains-duplicate.py) |
 | 0242 | Valid Anagram | Arrays & Hashing | Python | Easy | [Code](./leetcode/arrays-and-hashing/valid-anagram.py) |
 | 0049 | Group Anagrams | Arrays & Hashing | Python | Medium | [Code](./leetcode/arrays-and-hashing/group-anagrams.py) |
-| 0347 | Top K Frequent Elements | Arrays & Hashing | Python | Medium | [Code](./leetcode/arrays-and-hashing/problems/top-k-frequent-elements.py) |
+| 0347 | Top K Frequent Elements | Arrays & Hashing | Python | Medium | [Code](./leetcode/arrays-and-hashing/top-k-frequent-elements.py) |
 
